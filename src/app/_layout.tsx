@@ -11,7 +11,7 @@ export default function RootLayout() {
   return (
 
       <Stack initialRouteName="screens/main" screenOptions={({ navigation }) => ({
-        title: 'Home Screen',  // Título da tela
+        title: 'Home Screen',  
         headerRight: () => (
           <TouchableOpacity onPress={() => navigation.navigate('OtherScreen')}>
           <Feather name="menu" size={24} color="black" />
